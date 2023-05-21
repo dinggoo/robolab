@@ -1,0 +1,109 @@
+body {
+    margin: 5%;
+    font-family: helvetica;
+    background-color: #FFFCEF;
+}
+
+h1 {
+    font-family: helvetica;
+    font-size: 48px;
+    margin-right: 10%;
+    margin-bottom: 0;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 64px;
+    border-bottom: 1px solid black;
+}
+
+.text-button-div {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 100px;
+    padding: 0px 32px;
+    border: 1px solid black;
+}
+
+.text-button-text {
+    font-size: 18px;
+    margin-right: 32px;
+}
+
+.contain1600 {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.project-container {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    column-gap: 16px;
+    width: 100%;
+}
+
+.grid-item {
+    border: 1px solid black;
+    margin-bottom: 16px;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.project-thumbnail {
+    background-color: #D9D9D9;
+    width: 100%;
+    aspect-ratio: 5 / 4;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.project-content-wrapper {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 10px
+}
+
+.project-titel {
+    font-size: 24px;
+    margin: 0;
+}
+
+.project-link-div {
+    background-color: #FFFCEF;
+    width: 64px;
+    height: 64px;
+    border-radius: 100px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-thumbnail-foto {
+    height: 100%;
+}
+
+.project-thumbnail.project1 {
+    background-image: url('img/bier.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
