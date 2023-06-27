@@ -17,12 +17,67 @@ h2 {
     font-weight: 400;
 }
 
+h3 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 250;
+}
+
+h4 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
 p {
     font-size: 16px;
     font-family: helvetica;
     letter-spacing: 135%;
     font-weight: 400;
 }
+
+
+
+.square {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 100px;
+    padding: 0px 32px;
+    border: 1px solid black;
+    max-width: 260px;
+    position: static;
+    bottom: 24px;
+    right: 24px;
+}
+
+
+
+
+
+
 
 .header-wrapper {
     display: flex;
@@ -56,9 +111,6 @@ p {
 
 .project-container {
     margin-top: 64px;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    column-gap: 16px;
     width: 100%;
 }
 
@@ -136,7 +188,8 @@ a {
     border-radius: 10px;
     background-color: white;
     position: relative;
-    aspect-ratio: 1 / 1;
+    width: 95%;
+    height: 600px;
 }
 
 /*Voeg hieronder de css voor een nieuw project toe*/
