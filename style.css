@@ -11,6 +11,19 @@ h1 {
     margin-bottom: 0;
 }
 
+h2 {
+    font-size: 36px;
+    font-family: helvetica;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+    font-family: helvetica;
+    letter-spacing: 135%;
+    font-weight: 400;
+}
+
 .header-wrapper {
     display: flex;
     flex-direction: horizontal;
@@ -96,14 +109,42 @@ h1 {
     height: 100%;
 }
 
-.project-thumbnail.project1 {
-    background-image: url('img/bier.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 a {
     text-decoration: none;
     color: black;
+}
+
+.text-button-div-thema {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 100px;
+    padding: 0px 32px;
+    border: 1px solid black;
+    max-width: 260px;
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+}
+
+.grid-item-thema {
+    border: 1px solid black;
+    margin-bottom: 24px;
+    padding: 24px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    aspect-ratio: 1 / 1;
+}
+
+/*Voeg hieronder de css voor een nieuw project toe*/
+
+.project1 {
+    background-image: url('img/bier.png');
+    /*voeg hierboven de juiste thumbnail in voor het project*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
