@@ -74,3 +74,6 @@ Member toevoegen
 1. Maak een nieuwe folder aan met de naam van de persoon die aan het project gewerkt heeft in de map "members|
 2. Vul deze folder met relevante projecten van het project
 3. Fetch de wijzigingen en kopieer de link van de projectmap op github.com om te gebruiken als link in de projectpagina
+
+4. Pas de tekst aan (titel, naam, inleiding, inhoud, Image)
+5. Sla op
